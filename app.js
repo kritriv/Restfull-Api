@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const app = express();
 const product_routes = require("./routes/products")
@@ -14,7 +16,7 @@ app.use("/api/products", product_routes);
 
 const start = async () => {
     try{
-        await connectDB();
+        await connectDB(process.env.MONGODB_URL);
         app.listen(PORT, () =>{
             console.log(`${PORT}, Yes I am connect`);
         })
