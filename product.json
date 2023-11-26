@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Iphone",
+        "price": 1156,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Redmi",
+        "price": 1156,
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Galaxy 50",
+        "price": 1156,
+        "company": "samsung"
+    },
+    {
+        "name": "Iphone 15",
+        "price": 1156,
+        "company": "apple"
+    },
+    {
+        "name": "Redmi 12",
+        "price": 1156,
+        "company": "mi"
+    },
+    {
+        "name": "Iphone 11",
+        "price": 1156,
+        "company": "apple"
+    },
+    {
+        "name": "New 11",
+        "price": 3444,
+        "company": "apple"
+    }
+]
